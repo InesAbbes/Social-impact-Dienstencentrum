@@ -1,0 +1,60 @@
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* background-image: linear-gradient(45deg, rgba(255,0,0,0), rgb(153, 4, 4)); */
+}
+h1{
+  margin-top:20px;
+}
+h2, h3 {
+  text-align: center;
+  text-decoration: underline;
+  color:darkgoldenrod;
+}
+
+.pic{
+  background-image: url(imges/backtext.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  color:white;
+  background-position: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p{
+  padding-left: 10px;
+  border-left: 2px solid lightpink;
+}
+
+.info{
+  padding-top:45px;
+}
+
+a{
+  color: darkgoldenrod;
+}
+.title{
+  color:darkgoldenrod;
+  text-align: center;
+}
+.site-footer {
+  /*background-color:#white;*/
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+}
+.parallax {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#id-parllax-image{
+  background-image: url("./imges/carol3.jpg");
+}
+#id-parllax-image1{
+  background-image: url("./imges/background.jpg");
+}
